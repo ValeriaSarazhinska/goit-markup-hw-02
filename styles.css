@@ -1,0 +1,141 @@
+:root {
+    --blue-main: #2196F3;
+    --white-main: #FFFFFF;
+    --white-opacity: #FFFFFF99;
+    --black-main: #212121;
+    --black-secondary: #000000;
+    --black-title: #212121;
+    --gray-substring: #757575;
+    --gray-background: #2F303A;
+    --light-gray-background: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: var(--white-main);
+    color: var(--black-title);
+}
+
+.logo-dark {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+}
+
+.sub-logo {
+    color: var(--blue-main);
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-link:hover, .navLink:focus {
+    color: var(--blue-main);
+}
+
+.contacts {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray-substring);
+}
+
+.contacts:hover, .contacts:focus {
+    color: var(--blue-main);
+}
+
+.service-container {
+    background-color: var(--gray-background);
+}
+
+.service-title {
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--white-main);
+}
+
+.service-button {
+    width: 216px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+    color: var(--white-main);
+    background-color: var(--blue-main);
+}
+
+.about-subtitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.about-info {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--gray-substring);
+    line-height: 1.71
+}
+
+.about-title {
+    font-size: 36px;
+    line-height: 1.71
+}
+
+.team-container {
+    background-color: var(--light-gray-background);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.team-subtitle {
+    color: var(--gray-substring);
+}
+
+.footer-container {
+    background-color: var(--gray-background);
+}
+
+.logo-light {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: var(--white-main)
+}
+
+.footer-contacts {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--white-opacity);
+}
+
+.footer-contacts:hover, .footer-contacts:focus {
+    color: var(--white-main);
+}
+
+.nav-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: var(--light-gray-background);
+}
+
+.nav-button:hover, .nav-button:focus {
+    color: var(--white-main);
+    background-color: var(--blue-main);
+}
+
+.project-title {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.project-subtitle {
+    line-height: 1.87;
+    color: var(--gray-substring);
+}
