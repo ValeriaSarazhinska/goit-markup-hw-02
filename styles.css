@@ -12,8 +12,23 @@
 
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    background-color: var(--white-main);
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--black-title);
+    background-color: var(--white-main);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-secondary);;
+}
+
+.active-link {
+    color: var(--blue-main);
 }
 
 .logo-dark {
@@ -26,7 +41,6 @@ body {
 }
 
 .nav-link {
-    font-size: 14px;
     font-weight: 500;
 }
 
@@ -35,7 +49,6 @@ body {
 }
 
 .contacts {
-    font-size: 14px;
     font-weight: 500;
     color: var(--gray-substring);
 }
@@ -62,6 +75,10 @@ body {
     font-size: 16px;
     line-height: 1.87;
     cursor: pointer;
+    background-color: var(--light-gray-background);
+}
+
+.service-button:hover, .service-button:focus {
     color: var(--white-main);
     background-color: var(--blue-main);
 }
@@ -69,12 +86,10 @@ body {
 .about-subtitle {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
 }
 
 .about-info {
     font-weight: 400;
-    font-size: 14px;
     color: var(--gray-substring);
     line-height: 1.71
 }
@@ -110,7 +125,6 @@ body {
 
 .footer-contacts {
     font-weight: 400;
-    font-size: 14px;
     color: var(--white-opacity);
 }
 
