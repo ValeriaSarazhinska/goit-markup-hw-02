@@ -1,5 +1,6 @@
 :root {
     --blue-main: #2196F3;
+    --blue-active: #188CE8;;
     --white-main: #FFFFFF;
     --white-opacity: #FFFFFF99;
     --black-main: #212121;
@@ -11,18 +12,18 @@
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--black-title);
     background-color: var(--white-main);
 }
 
-ul {
+.list {
     list-style: none;
 }
 
-a {
+.link {
     text-decoration: none;
     color: var(--black-secondary);;
 }
@@ -64,43 +65,49 @@ a {
 .service-title {
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-main);
 }
 
 .service-button {
-    width: 216px;
-    height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.06em;
     cursor: pointer;
-    background-color: var(--light-gray-background);
-}
-
-.service-button:hover, .service-button:focus {
     color: var(--white-main);
     background-color: var(--blue-main);
 }
 
+.service-button:hover, .service-button:focus {
+    background-color: var(--blue-active);
+}
+
 .about-subtitle {
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .about-info {
-    font-weight: 400;
     color: var(--gray-substring);
     line-height: 1.71
 }
 
 .about-title {
     font-size: 36px;
-    line-height: 1.71
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .team-container {
     background-color: var(--light-gray-background);
+}
+.title{
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    line-height: 1.71
 }
 
 .team-title {
@@ -128,15 +135,21 @@ a {
     color: var(--white-opacity);
 }
 
+.address{
+    font-style: normal;
+}
+
 .footer-contacts:hover, .footer-contacts:focus {
     color: var(--white-main);
 }
 
 .nav-button {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     background-color: var(--light-gray-background);
+    letter-spacing: 0.03em
 }
 
 .nav-button:hover, .nav-button:focus {
@@ -147,6 +160,7 @@ a {
 .project-title {
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .project-subtitle {
