@@ -104,7 +104,8 @@ body {
 .team-container {
     background-color: var(--light-gray-background);
 }
-.title{
+
+.title {
     font-size: 36px;
     letter-spacing: 0.03em;
     line-height: 1.71
@@ -117,6 +118,7 @@ body {
 }
 
 .team-subtitle {
+    font-size: 16px;
     color: var(--gray-substring);
 }
 
@@ -131,11 +133,11 @@ body {
 }
 
 .footer-contacts {
-    font-weight: 400;
     color: var(--white-opacity);
+    line-height: 1.71;
 }
 
-.address{
+.address {
     font-style: normal;
 }
 
@@ -164,6 +166,7 @@ body {
 }
 
 .project-subtitle {
+    font-size: 16px;
     line-height: 1.87;
     color: var(--gray-substring);
 }
